@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/** Header starts here **/
+/** Section of nav-bar starts here **/
+.nav-bar{
+    width: 100%;
+}
+.nav-bar-left{
+    width: 15%;
+    margin-left: 96px;
+    float: left;
+}
+.nav-bar-left img{
+    width: 50%;
+}
+.nav-bar-right{
+    width: 55%;
+    float: left;
+}
+.nav-bar-right ul{
+    margin-top: 16px;
+}
+.nav-bar-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar-right ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 16px;
+    color: black;
+    font-weight: bold;
+}
+.nav-bar-right ul li a:hover{
+    color:#fcba03;
+}
+.tel{
+    width: 08%;
+    padding: 16px;
+    background-color: black;
+    float: left;
+}
+.tel a{
+    color: white;
+    text-decoration: none;
+}
+.cta{
+    width: 10%;
+    float: left;
+    padding: 16px 24px;
+    background-color: #fcba03;
+}
+.cta a{
+    text-decoration: none;
+}
+.header-main-area{
+    position: relative;
+}
+.header-bg-image img{
+    width: 100%;
+}
+.header-inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.main-logo{
+    width: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.main-logo h1{
+    font-size: 64px;
+}
+.main-logo a{
+    padding: 08px 16px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+.main-logo a:hover{
+    background-color: #fcba03;
+}
+/** Section of nav-bar ends here **/
+/** Header ends here **/
+/** Page-area starts here **/
+/** section of slogan starts here**/
+.slogan{
+    width: 100%;
+    padding: 40px 0;
+ }
+ .slogan-image{
+     width: 48%;
+    float: left;
+}
+.slogan-image img{
+    width: 90%;
+}
+ .slogan-right{
+     width: 50%;
+     float: right;
+ }
+ .slogan-right h1{
+     font-weight: bold;
+     display: inline-block;
+ }
+ .slogan-main{
+    color:  #fcba03;
+ }
+ .slogan-right input{
+     margin-top: 10px;
+     color: white;
+     background-color: black;
+     padding: 08px;
+     border-style: none;
+     font-size: 12px;
+ }
+/** section of slogan ends here**/
+/** section of offers start here**/
+.lead-text h1{
+    font-size: 40px;
+}
+.offer-box{
+    width: 48%;
+    text-align: center;
+    margin: 08px;
+    float: left;
+}
+.offer-box img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/** section of offers ends here**/
+/** section of testimonials starts here**/
+.testimonials{
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.test-lead-text{
+    width: 100%;
+    color: white;
+}
+.clients{
+    width: 50%;
+    float: left;
+}
+.clients-details{
+    width: 50%;
+    margin: 24px 0 ;
+    text-align: right;
+    float: left;
+}
+.clients-details a{
+    color: #fcba03;
+}
+.clients-reviews{
+    background-color: white;
+    padding: 24px;
+}
+.clients-profile{
+    color: white;
+    display: inline-block;
+}
+.clients-profile img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.table-wrapper{
+    padding: 32px 0;
+}
+.stats-table{
+    width: 80%;
+    display: table;   
+     
+}
+.stats-inner-data{
+    display: table-row;
+    vertical-align: middle; 
+}
+.table-image{
+    padding: 10px 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.table-figure-desc{
+    display: table-cell;
+    vertical-align: middle;
+}
+/** section of testimonials ends here**/
+/** section of interiors starts here**/
+.interiors{
+    width: 100%;
+
+}
+.interior-image{
+    width: 50%;
+    float: left;
+}
+.interior-image img{
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+}
+.interior-details{
+    margin: 24px 0;
+    width: 40%;
+    float: left;
+}
+.interior-details ul{
+    padding: 0;
+}
+.interior-details ul li{
+    list-style: none;
+    margin: 08px;
+}
+.interior-details a{
+    margin: 24px 0;
+    padding: 08px 16px;
+    background-color: #fcba03;
+    text-decoration: none;
+    color: white;
+}
+
+/** section of interiors ends here**/
+/** Page-area ends here **/
+/** Footer starts here **/
+/** section of footer-images starts here **/
+.footer{
+    background-color: black;
+    color: white;
+}    
+.footer-image{
+        width: 20%;
+        float: left;
+    }
+    .footer-image img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+/** section of footer-images ends here **/
+/** section of footer-widget starts here **/
+.footer-widgets{
+    width: 25%;
+    float: left;
+    padding: 40px 0;
+}
+.footer-widgets img{
+    width: 50%;
+}
+.footer-widgets a{
+    color: white;
+    padding: 04px 0;
+}
+.footer-widgets input[type="text"]{
+    border: 1px solid #fcba03;
+    padding: 5px;
+    margin-top: 08px;
+}
+.footer-widgets input[type="button"]{
+    background-color: #fcba03;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+.news-image{
+    width: 20%;
+    float: left;
+}
+.news-image img{
+    width: 100%;
+}
+.footer-news{
+    margin: 16px 0;
+}
+.footer-news-detail{
+    margin-left: 08px;
+    width: 75%;
+    float: left;
+}
+.insta-images{
+    width: 100%;
+}
+.insta-image{
+    width: 19%;
+    float: left;
+}
+.insta-image img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+/** section of footer-widget starts here **/
+/** Footer ends here **/
